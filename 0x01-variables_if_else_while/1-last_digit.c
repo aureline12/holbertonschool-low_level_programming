@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * I can see if positive or negative number
@@ -13,17 +14,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	lastDigit = n % 10;
-	if (lastDigit > 5)
+	if (lastDigit < 6)
 	{
-		printf("the last digit of %d, and is greater than %d\n" ,n , lastDigit);
+		printf("Last digit of %d, and is %d less than 6 and not 0\n", n, lastDigit);
 	}
 	else if (lastDigit == 0)
 	{
-		printf("the last digit of  %d,  %d\n ", lastDigit, n);
+		printf("Last digit of %d is 0 and is 0 %d\n", n, lastDigit);
 	}
 	else
 	{
-		printf("is negative %d and last digit %d \n", n, lastDigit);
+		printf("Last digit of %d, and is %d less than 6 and not 0\n", n, lastDigit);
 	}
 	return (0);
 }
