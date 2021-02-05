@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints combo 
- *
+ * main - prints combo
  * Return: Always 0 (Sucess)
  */
 int main(void)
