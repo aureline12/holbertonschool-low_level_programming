@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - Print numberz
  * Return: Always 0 (Success)
  */
 
