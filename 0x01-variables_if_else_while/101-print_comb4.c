@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - in this code you can view la combination de los first 900 numbers
+ * main - prints combo4
  *
  * Return: Always 0 (Sucess)
  */
