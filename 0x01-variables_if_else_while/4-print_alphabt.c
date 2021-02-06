@@ -9,9 +9,9 @@ int main(void)
 {
 	int n;
 
-	for (n = 97; n <= 122; ++n)
+	for (n = 'a'; n <= 'z'; ++n)
 	{
-		if ((n != 101) && (n != 113))
+		if ((n != 'q') && (n != 'e'))
 		putchar(n);
 	}
 	putchar('\n');
