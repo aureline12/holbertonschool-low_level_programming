@@ -10,11 +10,11 @@ int main(void)
 {
 	int n;
 
-	for (n = 97; n <= 122; ++n)
+	for (n = 'a'; n <= 'Z'; ++n)
 	{
 		putchar(n);
 	}
-	for (n = 65; n <= 90; ++n)
+	for (n = 'A'; n <= 'Z'; ++n)
 	{
 		putchar(n);
 	}
