@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* jack_bauer - print the last digit of the number
+* jack_bauer - print 24 hours
 * Return: Always 0.
 */
 
@@ -33,5 +33,4 @@ void jack_bauer(void)
 			}
 		}
 	}
-
 }
