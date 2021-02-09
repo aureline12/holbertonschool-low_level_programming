@@ -10,5 +10,7 @@ int _islower(int c);
 int _isalpha(int c);
 /* print_sign - this function print if is 0 */
 int print_sign(int n);
-/* int _abs -  */
+/* int _abs - print the absolute number */
 int _abs(int);
+/* print_last_digit - this function print the last digit */
+ int print_last_digit(int);
