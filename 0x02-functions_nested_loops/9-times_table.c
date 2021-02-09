@@ -6,12 +6,12 @@ void times_table(void)
 {
 	int tables, column;
 
-	for (tables = 0; tables <= 9; tables++)
+	for (tables = 0; tables < 10; tables++)
 	{
 		_putchar('0');
-		for (column = 1; column <= 9; column++)
+		for (column = 1; column < 10; column++)
 		{
-			if ((tables * column) < 9)
+			if ((tables * column) < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
