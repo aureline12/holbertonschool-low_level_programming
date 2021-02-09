@@ -8,7 +8,7 @@ void times_table(void)
 
 	for (tables = 0; tables <= 9; tables++)
 	{
-		_putchar('0=');
+		_putchar('0');
 		for (column = 1; column <= 9; column++)
 		{
 			if ((tables * column) <= 9)
