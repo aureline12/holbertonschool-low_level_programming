@@ -16,3 +16,11 @@ int _abs(int);
  int print_last_digit(int);
 /* jack_bauer - print all time of the day */
 void jack_bauer(void);
+/* times_table -  */
+void times_table(void);
+/* add - */
+int add(int, int);
+/* print_to_98 - */
+void print_to_98(int n);
+/* print_times_table - */
+void print_times_table(int n);
