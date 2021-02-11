@@ -3,7 +3,7 @@
 /**
 * _isupper - This function verify if is upper.
 * @c: the parameter char to comparate.
-* Return: 1 or 0.
+* Return: Always 0.
 */
 
 int _isupper(int c)
