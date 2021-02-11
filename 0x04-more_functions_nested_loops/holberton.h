@@ -16,11 +16,11 @@ void more_numbers(void);
 void print_line(int n);
 /* t7. print_diagonal - this prototype print a diagonal line */
 void print_diagonal(int n);
-/* t8. print_square - */
+/* t8. print_square - this prototype prints a squire */
 void print_square(int size);
-/* t10. print_triangle -*/
+/* t10. print_triangle - this prototipe print a triangule*/
 void print_triangle(int size);
-/* _putchar -print on screen */
+/* _putchar - print on screen */
 int _putchar(char c);
 
 #endif /* HOLBERTON_H */
