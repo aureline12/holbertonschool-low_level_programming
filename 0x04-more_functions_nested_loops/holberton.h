@@ -20,5 +20,7 @@ void print_diagonal(int n);
 void print_square(int size);
 /* t10. print_triangle -*/
 void print_triangle(int size);
+/* _putchar -print on screen */
+int _putchar(char c);
 
 #endif /* HOLBERTON_H */
