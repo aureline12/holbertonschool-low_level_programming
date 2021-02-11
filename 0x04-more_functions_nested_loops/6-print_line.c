@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * print_line - this function print the line
  * @n: the parameter to print the line
