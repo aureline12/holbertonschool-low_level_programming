@@ -4,7 +4,7 @@
 int _isupper(int c);
 /* t1. _isdigit - */
 int _isdigit(int c);
-/* t2. mul - */
+/* t2. mul - this function */
 int mul(int a, int b);
 /* t3. print_numbers - */
 void print_numbers(void);
