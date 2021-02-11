@@ -2,17 +2,17 @@
 #define HOLBERTON_H
 /* t0. _isupper - this prototype verify if is upper. */
 int _isupper(int c);
-/* t1. _isdigit - */
+/* t1. _isdigit - this prototype verify if is digit  */
 int _isdigit(int c);
-/* t2. mul - this function */
+/* t2. mul - this prototype miltipy 2 integers*/
 int mul(int a, int b);
-/* t3. print_numbers - */
+/* t3. print_numbers - this prototype print numbers 0 to 9*/
 void print_numbers(void);
-/* t4. print_most_numbers - */
+/* t4. print_most_numbers - this prototype print numbers 0 to 9 except 2 - 4*/
 void print_most_numbers(void);
-/* t5. more_numbers - */
+/* t5. more_numbers - this prototype print numbers 0 to 9 except 2 - 4 */
 void more_numbers(void);
-/* t6. print_line - */
+/* t6. print_line - this prototype print a lines */
 void print_line(int n);
 /* t7. print_diagonal - */
 void print_diagonal(int n);
