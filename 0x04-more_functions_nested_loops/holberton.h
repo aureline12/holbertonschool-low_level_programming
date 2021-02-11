@@ -14,7 +14,7 @@ void print_most_numbers(void);
 void more_numbers(void);
 /* t6. print_line - this prototype print a lines */
 void print_line(int n);
-/* t7. print_diagonal - */
+/* t7. print_diagonal - this prototype print a diagonal line */
 void print_diagonal(int n);
 /* t8. print_square - */
 void print_square(int size);
