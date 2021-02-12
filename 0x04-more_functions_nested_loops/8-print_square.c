@@ -1,14 +1,12 @@
 #include "holberton.h"
 /**
- * print_square - print a square 
- * @n: the parameter to print the backslahs
+ * print_square - print a square of #
+ * @size: is the parameter for calculate the size of the line
  */
 void print_square(int size)
 {
 
-	// int i, j;
-	int i;
-	int j;
+	int i, j;
 
 	if (size <= 0)
 		_putchar('\n');
