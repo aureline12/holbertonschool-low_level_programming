@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * _strlen - this functoin change the initial
- * @s: this is a parameter to change
+ * _strlen - this function change the initial.
+ * @s: this is a parameter to change.
+ * Return: len
  */
 int _strlen(char *s)
 {
