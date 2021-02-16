@@ -1,9 +1,9 @@
 /* This file constains all the prototypes of the projects */
-/* t0. reset_to_98 - */
+/* t0. reset_to_98 - this function reset all to 98 */
 void reset_to_98(int *n);
-/* t1. swap_int - */
+/* t1. swap_int - this function change the numbers*/
 void swap_int(int *a, int *b);
-/* t2.  _strlen - */
+/* t2. _strlen - is the function count the nombers of characters*/
 int _strlen(char *s);
 /* t3. _puts - */
 void _puts(char *str);
