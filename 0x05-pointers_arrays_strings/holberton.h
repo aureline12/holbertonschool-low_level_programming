@@ -1,13 +1,13 @@
 /* This file constains all the prototypes of the projects */
 /* t0. reset_to_98 - this function reset all to 98 */
 void reset_to_98(int *n);
-/* t1. swap_int - this function change the numbers*/
+/* t1. swap_int - this function change the numbers */
 void swap_int(int *a, int *b);
-/* t2. _strlen - is the function count the nombers of characters*/
+/* t2. _strlen - this the function count the nombers of characters */
 int _strlen(char *s);
-/* t3. _puts - */
+/* t3. _puts - this the function print a array of string */
 void _puts(char *str);
-/* t4. print_rev - */
+/* t4. print_rev - this the function print a array of string in reverse*/
 void print_rev(char *s);
 /* t5. rev_string - */
 void rev_string(char *s);
