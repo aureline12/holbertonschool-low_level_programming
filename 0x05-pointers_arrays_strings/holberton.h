@@ -19,3 +19,5 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 /* t9. _strcpy - */
 char *_strcpy(char *dest, char *src);
+/* _purchar - fuctions */
+int _putchar(char c);
