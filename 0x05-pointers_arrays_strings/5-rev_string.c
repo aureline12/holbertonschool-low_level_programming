@@ -12,7 +12,7 @@ void rev_string(char *s)
 		finish++;
 	finish--;
 
-	while (ini < finish 0)
+	while (ini < finish)
 	{
 		t = s[ini];
 		s[ini] = s[finish];
