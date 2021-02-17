@@ -18,6 +18,10 @@ void puts_half(char *str)
 		m = (len - 1) / 2;
 
 	for (i = m; i < len; i++)
+	{
+		if (str[i] == ' ')
+			continue;
 		_putchar(str[i]);
+	}
 	_putchar('\n');
 }
