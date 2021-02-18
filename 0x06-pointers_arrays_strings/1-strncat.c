@@ -12,6 +12,7 @@ int len(char *dest)
  * _strncat - check the code for Holberton School students.
  *	@dest: pointer od destination.
  *	@src: pointer of src.
+ *	@n: increment.
  * Return: Always 0.
  */
 
