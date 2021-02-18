@@ -4,9 +4,9 @@
  *	@dest: pointer od destination.
  * Return: Always 0.
  */
-int length(char *dest)
+int len(char *dest)
 {
-	return ((*dest != '\0') ? 1 + length(dest + 1) : 0);
+	return ((*dest != '\0') ? 1 + len(dest + 1) : 0);
 }
 /**
  * _strcat - duplicate the pinter..
@@ -17,7 +17,7 @@ int length(char *dest)
 
 char *_strcat(char *dest, char *src)
 {
-	char *d_itter = dest + length(dest) - 1;
+	char *d_itter = dest + len(dest);
 
 	while (*src != '\0')
 	{
