@@ -22,8 +22,8 @@ char *_strcat(char *dest, char *src)
 	while (*src != '\0')
 	{
 		*d_itter = *src;
-		src++;
-		d_itter++;
+		src = src + 1;
+		d_itter = d_itter + 1;
 	}
 	*d_itter = *src;
 	return (dest);
