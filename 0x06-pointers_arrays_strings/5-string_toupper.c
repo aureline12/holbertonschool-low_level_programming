@@ -1,16 +1,16 @@
 #include "holberton.h"
 
 /**
- * string_toupper - this fuction print in upper.
+ * string_toupper - this fuction print in upper whit ascii code.
  * @str: is the string to comparate.
  * Return: i.
  */
 char *string_toupper(char *str)
 {
-	char *i;
+	char *i = str;
 
-	for (i = str; *str != '\0'; str++)
-		if (*str > 'a' && *str < 'z')
+	for (; *str != '\0'; str++)
+		if (*str >= 97 && *str <= 122)
 			*str -= 32;
 	return (i);
 }
