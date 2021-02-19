@@ -9,7 +9,7 @@ int len(char *dest)
 	return ((*dest != '\0') ? 1 + len(dest + 1) : 0);
 }
 /**
- * _strcat - duplicate the pinter..
+ * _strcat - duplicate the pinter.
  *	@dest: pointer od destination.
  *	@src: pointer of src.
  * Return: Always 0.
