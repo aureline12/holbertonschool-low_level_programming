@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * string_toupper - this fuction print in upper whit ascii code.
+ * string_toupper - this fuction print in uppercase whit ascii code.
  * @str: is the string to comparate.
  * Return: i.
  */

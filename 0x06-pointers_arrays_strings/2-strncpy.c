@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strncpy - this fuction copy the pointer to variable.
+ * _strncpy - function that concatenates two strings.
  * @n: is the pointer is the origin.
  * @dest: is the pointer is the destiny.
  * @src: is the pointer is the destiny.

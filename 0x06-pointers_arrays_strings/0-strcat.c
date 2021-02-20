@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * len - duplicate the pinter..
- *	@dest: pointer od destination.
+ * len - Function calculates the length of a given string.
+ * @dest: pointer to destination.
  * Return: Always 0.
  */
 int len(char *dest)
@@ -9,10 +9,10 @@ int len(char *dest)
 	return ((*dest != '\0') ? 1 + len(dest + 1) : 0);
 }
 /**
- * _strcat - duplicate the pinter.
- *	@dest: pointer od destination.
- *	@src: pointer of src.
- * Return: Always 0.
+ * _strcat - function that copies a string.
+ * @dest: This is pointer to the destination array.
+ * @src: This is the string to be appended.
+ * Return: dest.
  */
 
 char *_strcat(char *dest, char *src)

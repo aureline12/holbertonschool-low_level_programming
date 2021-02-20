@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * _strcmp - check the code for Holberton School students.
- * @s1: is a first string
- * @s2: is a second string
- * Return: Always 0.
+ * _strcmp - function compares two strings.
+ * @s1: is the first string to compare.
+ * @s2: is the second string to compare.
+ * Return: r.
  */
 int _strcmp(char *s1, char *s2)
 {
