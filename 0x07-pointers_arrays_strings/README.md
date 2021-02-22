@@ -11,5 +11,3 @@ _These were some languages used in the project_
 ## Final Messages 🎁
 
 * Thanks for watching and Happy code 🤓.
-
---
