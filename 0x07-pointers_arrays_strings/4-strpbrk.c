@@ -19,7 +19,7 @@ int _includes(char *str, char c)
 }
 
 /**
- * _strspn - function that gets the length of a prefix substring
+ * _strpbrk - function that searches a string for any of a set of bytes.
  * @s: is the pointer
  * @accept: it is the validation that accepts
  * Return: count.
