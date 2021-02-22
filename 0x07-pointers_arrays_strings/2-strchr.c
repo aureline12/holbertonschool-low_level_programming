@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * _strchr -  function that locates a character in a string
  * @s: is a pointer which stores the addresses
@@ -17,5 +17,5 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		}
 	}
-	return (0);
+	return (NULL);
 }
