@@ -8,3 +8,5 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 /* t3. _strspn - function that gets the length of a prefix substring. */
 unsigned int _strspn(char *s, char *accept);
+/* t4. _strpbrk - function that searches a string for any of a set of bytes. */
+char *_strpbrk(char *s, char *accept);
