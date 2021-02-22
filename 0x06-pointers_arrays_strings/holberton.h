@@ -13,7 +13,7 @@ void reverse_array(int *a, int n);
 /* t5. string_toupper - function that changes all lowercase letters of a string to uppercase. */
 char *string_toupper(char *str);
 /* t6. cap_string - function that capitalizes all words of a string. */
-char *cap_string(char *);
+char *cap_string(char *str);
 /* t7. leet -  function that encodes a string into 1337. */
 char *leet(char *);
 /* t8. rot13 -  function that encodes a string using rot13. */
