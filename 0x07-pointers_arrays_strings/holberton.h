@@ -10,3 +10,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 /* t4. _strpbrk - function that searches a string for any of a set of bytes. */
 char *_strpbrk(char *s, char *accept);
+/* t5. _strstr - function that locates a substring. */
+char *_strstr(char *haystack, char *needle);
