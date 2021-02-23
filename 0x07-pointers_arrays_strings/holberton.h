@@ -18,3 +18,5 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 /* t8. set_string -  function that sets the value of a pointer to a char. */
 void set_string(char **s, char *to);
+/* _putchar */
+int _putchar(char c);
