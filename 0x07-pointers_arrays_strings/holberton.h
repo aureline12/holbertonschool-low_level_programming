@@ -12,3 +12,9 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 /* t5. _strstr - function that locates a substring. */
 char *_strstr(char *haystack, char *needle);
+/* t6. print_chessboard - function that prints the chessboard. */
+void print_chessboard(char (*a)[8]);
+/* t7. print_diagsums - unction that prints the sum of the two diagonals of a square matrix of integers. */
+void print_diagsums(int *a, int size);
+/* t8. set_string -  function that sets the value of a pointer to a char. */
+void set_string(char **s, char *to);
