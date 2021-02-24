@@ -19,4 +19,3 @@ _In this project you will find basic exercises in what I will be learning C_
 8|[101-quote.c](./101-quote.c)
 9|[main.c](./main.c)
 9|[c](./c)
-
