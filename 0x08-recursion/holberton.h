@@ -5,7 +5,7 @@ void _puts_recursion(char *s);
 /* 1. void _print_rev_recursion(char *s); */
 void _print_rev_recursion(char *s);
 /* 2. function that returns the length of a string. */
-void _puts_recursion(char *s);
+int _strlen_recursion(char *s);
 /* 3. function that returns the factorial of a given number. */
 int factorial(int n);
 /* 4. function that returns the value of x raised to the power of y. */
