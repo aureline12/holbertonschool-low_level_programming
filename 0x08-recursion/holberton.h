@@ -16,9 +16,7 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 /* 7. function that returns 1 if a string is a palindrome and 0 if not. */
 int is_palindrome(char *s);
-/* 8. function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. */
+/* 8. (Advanced)function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. */
 int wildcmp(char *s1, char *s2);
-/* 9.(Advanced) function that prints a string, followed by a new line. */
-void _puts_recursion(char *s);
 /* extra - _putchar - writes the character c to stdout */
 int _putchar(char c);
