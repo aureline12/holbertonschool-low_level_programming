@@ -1,4 +1,4 @@
-# 💻- Lowl Level Programming 
+# 💻- Lowl Level Programming.
 
 _In this folder you can find different folders where you can see the process in which I am learning C_
 
