@@ -8,8 +8,8 @@ _In this folder you can find different folders where you can see the process in 
 ---|---|---
 1|[README.md](./README.md)| Description
 2|[0x00-hello_world](./0x00-hello_world)| First steps in C
-3|[0x01-variables_if_else_while](./0x01-variables_if_else_while)| Variables and conditional
-4|[0x02-functions_nested_loops](./0x02-functions_nested_loops)| Loops
+3|[0x01-variables_if_else_while](./0x01-variables_if_else_while)| Variables and conditional.
+4|[0x02-functions_nested_loops](./0x02-functions_nested_loops)| Loops.
 5|[0x03-debugging](./0x03-debugging)| How debug.
 6|[0x04-more_functions_nested_loops/ ](./0x04-more_functions_nested_loops/)| More Loops.
 7|[0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings)| Pointers, arrays and strings.
