@@ -2,7 +2,7 @@
 
 /* 0. function that prints a string, followed by a new line. */
 void _puts_recursion(char *s);
-/* 1. void _print_rev_recursion(char *s); */
+/* 1. function that prints a string in reverse. */
 void _print_rev_recursion(char *s);
 /* 2. function that returns the length of a string. */
 int _strlen_recursion(char *s);
