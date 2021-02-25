@@ -4,10 +4,11 @@ _In this project you will find basic exercises in what I will be learning C_
 
 ## :memo: - Files
 
-#|Files
+# |Files
 ---|---|---
 1|[README.md](./README.md)| Readme file
 2|[0-positive_or_negative.c](./0-positive_or_negative.c)| Positive and negative exerciss.
+
 <!-- 
 3|[1-last_digit.c](./1-last_digit.c)|
 4|[2-print_alphabet.c](./2-print_alphabet.c)|
