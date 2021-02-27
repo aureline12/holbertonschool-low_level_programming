@@ -17,3 +17,4 @@ _In this folder you can find different folders where you can see the process in 
 9|[0x07-pointers_arrays_strings](./0x07-pointers_arrays_strings)| More and more pointers, arrays and strings.
 10|[0x08-recursion](./0x08-recursion)| Using the recursion in C.
 11|[0x09-static_libraries](./0x09-static_libraries)| Creation and use of static libraries in C.
+11|[0x0A-argc_argv](./0x0A-argc_argv)| In this folder is the use of and handling of the arguments 'argc' and 'argv'.
