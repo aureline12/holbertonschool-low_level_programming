@@ -4,7 +4,7 @@
  * main - print product of multiplication of two arguments
  * @argc: counter of arguments
  * @argv: arguments
- * Return: (Success)
+ * Return: (Success) : 1
  */
 
 int main(int argc, char **argv)
