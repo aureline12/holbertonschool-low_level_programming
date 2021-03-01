@@ -4,14 +4,18 @@
  * @str: this is a parameter to change.
  *
  */
+#include "holberton.h"
+/**
+* _puts - function that prints a string, followed by a new line, to stdout
+* @str: pointer type char
+* Return: Always 0 (Success)
+*/
 void _puts(char *str)
 {
-	int i;
-
-	while (str[i] != 0)
+	for (; *str != '\0';)
 	{
-		_putchar(str[i]);
-		i++;
+		_putchar(*str);
+		str++;
 	}
 	_putchar('\n');
 }
