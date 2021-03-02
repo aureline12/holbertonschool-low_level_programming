@@ -1,4 +1,4 @@
-# :file_folder: - malloc, free.
+# :file_folder: - malloc & free.
 
 _In this project you will be able to find exercises to use the library <stdlib.h> where we can learn to use malloc and free._
 
