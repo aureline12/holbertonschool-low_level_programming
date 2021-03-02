@@ -7,7 +7,7 @@ _In this project you will be able to find exercises to use the library <stdlib.h
 #|Directory|Description
 ---|---|---
 1|[README.md](./README.md)| Contains the description of the project.
-2|[0-whatsmyname.c](./0-whatsmyname.c)| Creates an array of chars, and initializes it with a specific char.
+2|[0-create_array.c](./0-create_array.c)| Creates an array of chars, and initializes it with a specific char.
 3|[1-strdup.c](./1-strdup.c)| Function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 4|[2-str_concat.c](./2-str_concat.c)| Function that concatenates two strings.
 5|[3-alloc_grid.c](./3-alloc_grid.c)|  Function that returns a pointer to a 2 dimensional array of integers.
