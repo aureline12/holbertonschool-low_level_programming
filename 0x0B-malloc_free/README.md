@@ -14,3 +14,4 @@ _In this project you will be able to find exercises to use the library <stdlib.h
 6|[4-free_grid.c](./4-free_grid.c)| Function that frees a 2 dimensional grid previously created by your alloc_grid function.
 7|[5-argstostr.c](./5-argstostr.c)| Function that concatenates all the arguments of your program.
 .h|[holberton.h](./holberton.h)| Is the file which contains all the necessary headers.
+f|[_putchar.c](./_putchar.c)| Contains the function that the putchar does.
