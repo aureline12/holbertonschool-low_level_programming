@@ -29,7 +29,7 @@ char *_strdup(char *str)
 	/* Stores the content of str in new str */
 	for (j = 0; j <= i; j++)
 	{
-		*(new_str + j) = str[j];
+		*(new_str + j) = *(str + j);
 	}
 	return (new_str);
 }
