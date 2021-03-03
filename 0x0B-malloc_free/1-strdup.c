@@ -16,10 +16,10 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	/* We take the size of the string to reserve the space */
-	for (i = 0; str[i] != 0; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{}
 
-	new_str = malloc(*str * sizeof(char) + 1);
+	new_str = malloc(sizeof(char) * (i + 1));
 
 	/*check if the new sting is null */
 	if (new_str == NULL)
@@ -27,7 +27,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	/* Stores the content of str in new str */
-	for (j = 0; j <= i; j++)
+	for (j = 0; *(str + j) != '\0'; j++)
 	{
 		*(new_str + j) = *(str + j);
 	}
