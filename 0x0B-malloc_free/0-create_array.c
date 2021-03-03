@@ -14,7 +14,7 @@ char *create_array(unsigned int size, char c)
 
 	unsigned int i;
 	char *s;
-	/* error po */
+	/* error if is null */
 	if (size == 0)
 	{
 		return (NULL);
