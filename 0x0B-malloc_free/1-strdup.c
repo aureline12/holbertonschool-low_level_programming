@@ -1,6 +1,5 @@
 #include "holberton.h"
 
-
 /**
  * _strdup - returns a pointer to a newly allocated space in memory.
  * @str: is the first string to use to copy.
@@ -13,10 +12,10 @@ char *_strdup(char *str)
 
 	/* Validate if is NULL */
 	if (str == NULL)
+	{
 		return (NULL);
-	/* Get the space reserved in memory  */
-
-	/* Tomamos el tamaño del string para reservar los espacio  */
+	}
+	/* We take the size of the string to reserve the space */
 	for (i = 0; str[i] != 0; i++)
 	{}
 
@@ -27,7 +26,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
 	/* Stores the content of str in new str */
 	for (j = 0; j <= i; j++)
 	{
