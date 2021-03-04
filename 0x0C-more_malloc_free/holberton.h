@@ -1,7 +1,12 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 /* This file contains the prototypes needed for the project */
-
+/* standar lib */
+#include <stdio.h>
+/* stdlib.h */
+#include <stdlib.h>
+/* limits.h */
+#include <limits.h>
 /* 0. function that allocates memory using malloc. */
 void *malloc_checked(unsigned int b);
 /* 1. Function that concatenates two strings.*/
