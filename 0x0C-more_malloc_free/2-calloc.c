@@ -13,11 +13,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
 	char *m_size;
+
+	void *file;
+
+	file = malloc(size); /* obtenemos la memoria de malloc */
+
 	/* error if is null */
-	if (size == 0)
+	if (size == 0 || nmemb == 0)
 	{
 		return (NULL);
 	}
+
 	/* malloc - reserve memory space */
 
 	m_size = malloc(size * sizeof(char));
