@@ -10,8 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-	int change[] = {25, 10, 5, 2, 1};
-	unsigned int i = 0, count_coins = 0;
+	int money[] = {25, 10, 5, 2, 1};
+	unsigned int i = 0, count_coins = 0, convert_nums;
 
 	if (argc != 2)
 	{
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	int convert_num = atoi(argv[1]);
+	convert_num = atoi(argv[1]);
 
 	if (convert_num < 0)
 	{
