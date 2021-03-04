@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
 * malloc_checked - Function that allocates memory using malloc.
-* @b:
-*
+* @b: integer to comparate
+* Return: pointer to check
 */
 void *malloc_checked(unsigned int b)
 {
@@ -12,11 +12,8 @@ void *malloc_checked(unsigned int b)
 
 	if (pointer == NULL)
 	{
-		exit (98);
+		exit(98);
 	}
-	else
-	{
-		return (pointer);
-	}
+	return (pointer);
 
 }
