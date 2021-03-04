@@ -7,25 +7,25 @@
 */
 int *array_range(int min, int max)
 {
-	int i, length = (max - min); /* Here we drowned the amount to find */
-	int *array;
+	int i, length = (max - min) + 1; /* Here we drowned the amount to find */
+	int *array_range;
 
-	if (min >= max)
+	if (min > max)
 	{
 		return (NULL);
 	}
 
-	array = malloc(length * sizeof(*array));
+	array_range = malloc(length * sizeof(*array_range));
 
-	if (array == NULL)
+	if (array_range == NULL)
 	{
 		return (NULL);
 	}
 
-	for (i = 0; min < max; min++, i++)
+	for (i = 0; min <= max; min++, i++)
 	{
-		*(array + i) = min;
+		*(array_range + i) = min;
 	}
 
-	return (array);
+	return (array_range);
 }
