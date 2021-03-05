@@ -3,11 +3,11 @@
 * array_range - Function that creates an array of integers.
 * @min: is the min
 * @max: is the mix
-* Return: s.
+* Return: array_range.
 */
 int *array_range(int min, int max)
 {
-	int i, length = (max - min) + 1; /* Here we drowned the amount to find */
+	int i, length = (max - min) + 1; /*Here we drowned the amount to find*/
 	int *array_range;
 
 	if (min > max)
