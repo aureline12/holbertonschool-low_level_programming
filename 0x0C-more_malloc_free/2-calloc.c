@@ -11,17 +11,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int i;
 	char *m_size;
 
-	m_size = malloc(size); /* obtenemos la memoria de mall */
-
-	/* error if is null */
-	if (size == 0 || nmemb == 0)
-	{
+	if (size == 0 || nmemb == 0) /* error if is null */
 		return (NULL);
-	}
 
 	/* malloc - reserve memory space */
 
-	m_size = malloc(size * sizeof(char));
+	m_size = malloc(size * nmemb);
 
 	/* possible error */
 	if (m_size == NULL)
@@ -30,9 +25,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 
 	/* we go through the arrangement of malloc */
-	for (i = 0; i < size; i++)
+	for (i = 0; i < (size * nmemb); i++)
 	{
-		*(m_size + i) = nmemb;
+		*(m_size + i) = 0;
 	}
-	return (m_size);
+	return ((void *)m_size);
+
 }
