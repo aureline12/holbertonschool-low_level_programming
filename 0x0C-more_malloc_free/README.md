@@ -12,4 +12,3 @@ _In this project you will be able to find exercises to use the library <stdlib.h
 4|[2-calloc.c](./2-calloc.c)| Function that allocates memory for an array, using malloc.
 5|[3-array_range.c](./3-array_range.c)| Function that creates an array of integers.
 .h|[holberton.h](./holberton.h)| Is the file which contains all the necessary headers.
-f|[_putchar.c](./_putchar.c)| Contains the function that the putchar does.
