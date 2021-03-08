@@ -2,8 +2,7 @@
 
 _In this project you will find basic exercises in what I will be learning C_
 
-### :memo: - Files 
-
+### :memo: - Files
 #|Files
 ---|---
 1|[README.md](./README.md)
