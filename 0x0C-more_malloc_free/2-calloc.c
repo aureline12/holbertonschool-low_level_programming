@@ -29,6 +29,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		*(m_size + i) = 0;
 	}
-	return ((void *)m_size);
+	return ((void *)m_size); /* ¿why? */
 
 }
