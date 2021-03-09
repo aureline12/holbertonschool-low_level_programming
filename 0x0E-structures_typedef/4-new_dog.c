@@ -15,7 +15,7 @@ char *_strcopy(char *s)
 
 	/* we obtain the length plus the null */
 
-	m_name = malloc(sizeof(char) * length + 1);
+	m_name = malloc(sizeof(char) * length);
 
 	if (m_name == NULL)
 	{
@@ -33,8 +33,8 @@ char *_strcopy(char *s)
 /**
  * new_dog - new doggy
  * @name: name dog
- * @age: age dog
- * @owner: owner dog
+ * @age: age
+ * @s: char s
  * Return: 0
  */
 dog_t *new_dog(char *name, float age, char *owner)
@@ -47,7 +47,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 
 	m_name = _strcopy(name);
-
 	if (m_name == NULL)
 	{
 		free(new_dog);
@@ -55,7 +54,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	m_owner = _strcopy(owner);
 
-	if (m_name == NULL)
+	if (m_owner == NULL)
 	{
 		free(new_dog);
 		free(m_name);
