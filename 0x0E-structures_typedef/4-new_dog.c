@@ -15,7 +15,7 @@ char *_strcopy(char *s)
 
 	/* we obtain the length plus the null */
 
-	m_name = malloc(sizeof(char) * length);
+	m_name = malloc(sizeof(char) * length + 1);
 
 	if (m_name == NULL)
 	{
