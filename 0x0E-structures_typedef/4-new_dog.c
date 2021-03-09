@@ -34,7 +34,7 @@ char *_strcopy(char *s)
  * new_dog - new doggy
  * @name: name dog
  * @age: age
- * @s: char s
+ * @owner: char s
  * Return: 0
  */
 dog_t *new_dog(char *name, float age, char *owner)
