@@ -5,6 +5,8 @@
 #include <stdarg.h>
 /* Standar lib */
 #include <stdio.h>
+/* Lib stdio */
+#include <stdlib.h>
 
 /* 0. sum_them_all */
 int sum_them_all(const unsigned int n, ...);
