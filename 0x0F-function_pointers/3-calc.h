@@ -27,4 +27,7 @@ int op_div(int a, int b);
 /* Prototype: op_mod */
 int op_mod(int a, int b);
 
+/* panic  */
+int (*get_op_func(char *s))(int, int);
+
 #endif
