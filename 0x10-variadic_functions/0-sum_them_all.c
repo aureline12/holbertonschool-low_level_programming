@@ -9,18 +9,13 @@ int sum_them_all(const unsigned int n, ...) /* ... = n amount of args */
 {
 	va_list args; /* list all ... -> the args */
 	int result = 0;
-
-	if (n == 0)
-		return (0);
+	unsigned int i;
 
 	va_start(args, n); /* args = ... */
-	/* accesses the next variadic function argument */
-
-	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
-		result += va_arg(args, int);
+		result += va_arg(args, int); /* agrs[i] */
 	}
 	va_end(args); /* ends traversal of the variadic function arguments = ... */
 	return (result);
