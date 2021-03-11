@@ -1,8 +1,10 @@
 #ifndef VARIATIC_FUNCTIONS_H
 #define VARIATIC_FUNCTIONS_H
 
-
+/* stdarg.h */
 #include <stdarg.h>
+/* Standar lib */
+#include <stdio.h>
 
 /* 0. sum_them_all */
 int sum_them_all(const unsigned int n, ...);
