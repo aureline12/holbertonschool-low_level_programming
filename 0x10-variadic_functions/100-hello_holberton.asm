@@ -1,16 +1,24 @@
+section	.rodata
+; db = initialize value;
+msg db `Hello, Holberton`,10 ;string to be printed
+;  equ = create constant $ = expresion - = length  = msg
+len equ $ - msg
+
 section	.text
    global main     ;must be declared for linker (ld)
 
-main:	            ;tells linker entry point
-   mov	rdx,len     ;message length
-   mov	rcx,msg     ;message to write
-   mov	rbx,1       ;file descriptor (stdout)
-   mov	rax,4       ;system call number (sys_write)
-   int	0x80        ;call kernel
+main:
+;  start to save to register pending operations
+   mov	rax, 1   ; sys call to syswrite   write(1, text, len)
+   mov  rdi, 1	 ; rdi primer parameter
+   mov	rsi, msg ; rsi second parameter
+   mov  rdx, len  ; rdx third parameter
+;------------------------------------------
+   syscall    ;call kernel  execute pending operations saved in previous registers
+;------------------------------------------
+;  start to save to register pending operations
 
-   mov	rax,1       ;system call number (sys_exit)
-   int	0x80        ;call kernel
-
-; section	.data
-msg db 'Hello, Holberton', 0xa  ;string to be printed
-len equ $ - msg     ;length of the string
+   mov	rax, 60  ;system call number (sys_exit)
+   mov	rdi, 0   ; exit code
+   syscall       ; call kernel
+  ;length of the string
