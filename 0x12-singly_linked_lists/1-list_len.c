@@ -2,7 +2,8 @@
 
 /**
  * print_list - function that prints all the elements of a list_t list.
- * @h:
+ * @h: head of the struct.
+ * Return: number of elements in a linked list_t list.
  */
 size_t print_list(const list_t *h)
 {
