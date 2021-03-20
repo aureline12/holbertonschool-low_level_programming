@@ -9,5 +9,7 @@ void free_list(list_t *head)
 	if (head == NULL)
 		return;
 
-	free(head);
+	free_list(head);
+	free(head->len);
+	free(head->str);
 }
