@@ -5,10 +5,10 @@ section .text
     global main     ; Call to the Main.
 
 main:
-    mov  rsi, 1     ; Scond paramater
+    ;mov  rsi, 1     ; Scond paramater
     mov  rdi, fmt   ; rdi first parameter and format
     mov  rax, 0     ; no f.p. args
     call printf     ; Call to Printf.
 
-    mov  rbx, 0     ; return value
-    mov  rax, 0     ; system call number
+    ;mov  rbx, 0     ; return value
+    ;mov  rax, 0     ; system call number
