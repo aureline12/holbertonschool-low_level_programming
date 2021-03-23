@@ -6,14 +6,19 @@
  */
 void free_listint2(listint_t **head)
 {
+	listint_t *temp;
+	listint_t *temp2;
+
 	if (*head == NULL)
 		return;
 
-	/* Option 1: Directly access the value */
-	/* free_listint2(&(**head).next); */
-	/* Option 2: Access the value through the pointer */
-	free_listint2(&(*head)->next);
-	/* free the list */
-	free(*head);
+	temp = *head;
+
+	while (temp)
+	{
+		temp2 = temp->next;
+		free(temp);
+		temp = temp2;
+	}
 	*head = NULL;
 }
