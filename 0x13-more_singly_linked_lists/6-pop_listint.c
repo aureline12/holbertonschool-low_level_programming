@@ -10,14 +10,16 @@ int pop_listint(listint_t **head)
 	listint_t *temp;
 	int num_values = 0;
 
-	if (!head)
-		return (0);
-	/* Save value so you do not miss. */
-	num_values = (*head)->n;
-	/*  Save the reference delen head to pass the reference */
-	temp = (*head); /* Assigned the temporary reference */
-	*head = (*head)->next; /* Referenced the new reference */
-	free(temp); /* Free the head. */
+	if (head)
+		temp = *head; /* Assigned the temporary reference */
 
+	if (temp)
+	{
+		/* Save value so you do not miss. */
+		/*  Save the reference delen head to pass the reference */
+		num_values = (*head)->n;
+		*head = (*head)->next; /* Referenced the new reference */
+		free(temp); /* Free the head. */
+	}
 	return (num_values);
 }
