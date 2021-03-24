@@ -8,13 +8,16 @@
 int pop_listint(listint_t **head)
 {
 	listint_t *temp;
-	/* int value_node; */
+	int num_values;
 
-	if (head)
+	if (!head)
 		return (0);
+	/* Save value so you do not miss. */
+	num_values = (*head)->n;
+	/*  Save the reference delen head to pass the reference */
+	temp = (*head); /* Assigned the temporary reference */
+	*head = (*head)->next; /* Referenced the new reference */
+	free(temp); /* Free the head. */
 
-	temp = *head;
-	free(temp);
-	return ((*head)->n);
-
+	return (num_values);
 }
