@@ -1,19 +1,20 @@
 #include "lists.h"
 
 /**
- * pop_listint - frees a list_t list.
+ * sum_listint - returns the sum of all the data (n) of a listint_t.
  * @head: head of the struct.
  * Return: head node’s data (n).
  */
 int sum_listint(listint_t *head)
 {
-	size_t num_elements;
+	listint_t *temp;
+	unsigned int num_values = 0;
 
-	if (head == NULL)
-		return (0);
-	num_elements = (1 + sum_listint(head->next));
-
-	while (head != NULL)
-		return (num_elements + head->n); /* Return numbers of elements */
-	return (0);
+	temp = head;
+	while (temp)
+	{
+		num_values += temp->n;
+		temp = temp->next;
+	}
+	return (num_values);
 }
