@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * set_bit - function that sets the value of a bit to 1 at a given index.
+ * clear_bit - function that sets the value of a bit to 1 at a given index.
  * @index: is the index
  * @n: Binary to print
  * Return: Value of bits.
