@@ -12,11 +12,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t num_letters;
 
 	buffer = malloc(sizeof(char) * letters);
-	if (buffer == NULL)
-		return (0);
+
 	file = open(filename, O_RDWR); /* Read and Write the file.*/
 
-	if (file == -1) /* Edge case  */
+	if (file == -1 || buffer == NULL) /* Edge case  */
 		return (0);
 
 	num_letters = read(file, buffer, letters); /* Read buffer */
