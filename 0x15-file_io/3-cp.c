@@ -10,7 +10,7 @@
 
 int main(int argc, char const *argv[])
 {
-	int file_from, file_to, read_file, write_file;
+	int file_from = 0, file_to = 0, read_file = 0, write_file = 0;
 	char bufffer[1024];
 
 	if (argc != 3)
