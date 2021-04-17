@@ -2,7 +2,7 @@
 
 _In this folder you can find different folders where you can see the process in which I am learning C_
 
-### :file_folder:- Directories 
+### :file_folder:- Directories
 
 #|Directory|Description
 ---|---|---
