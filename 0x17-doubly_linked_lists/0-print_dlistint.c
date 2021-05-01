@@ -2,7 +2,7 @@
 /**
 * print_dlistint - prints all the elements of a dlistint_t* list.
 * @h: is the header of the double linked list
-* Return: Always 0
+* Return: elements of list
 **/
 
 size_t print_dlistint(const dlistint_t *h)
