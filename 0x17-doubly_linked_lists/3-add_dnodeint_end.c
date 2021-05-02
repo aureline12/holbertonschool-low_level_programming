@@ -7,8 +7,8 @@
 */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-	dlistint_t *node_end;
-	dlistint_t *current_node;
+	dlistint_t *node_end; /* new node to add end */
+	dlistint_t *current_node; /* current node to jump one by one */
 
 	if (head == NULL)
 		return (0);
@@ -22,10 +22,10 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	node_end->next = NULL; /* Assing NULl to declarate the of DLL*/
 	node_end->prev = NULL; /* Assing NULl to declarate the of DLL*/
 
-	if (*head == NULL)
+	if (*head == NULL) /* Validate if the second pointer is NUll  */
 	{
 		(*head) = node_end;
-		return (node_end);
+		return (node_end); /* return the node end to assig pocsition  */
 	}
 	current_node = *head; /* Assing current node to  head */
 
