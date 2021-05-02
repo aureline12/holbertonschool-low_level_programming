@@ -14,10 +14,10 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		return (0);
 	node_end = malloc(sizeof(dlistint_t));
 
-	if (node_end == NULL)
+	if (node_end == NULL) /* Validate if the node is NUll */
 		return (0);
 
-	node_end->n = n;
+	node_end->n = n; /* Assing the value to new node created */
 
 	node_end->next = NULL; /* Assing NULl to declarate the of DLL*/
 	node_end->prev = NULL; /* Assing NULl to declarate the of DLL*/
@@ -27,13 +27,13 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		(*head) = node_end;
 		return (node_end);
 	}
+	current_node = *head; /* Assing current node to  head */
 
-	current_node = *head;
 	while (current_node->next != NULL) /* current node move to final */
 		current_node = current_node->next;
 
 	current_node->next = node_end; /* Assing the next value of prev node */
-	node_end->prev = current_node;
+	node_end->prev = current_node; /* Assig the prev of new node to current */
 
 	return (node_end);
 }
