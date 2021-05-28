@@ -1,3 +1,4 @@
+#include "hash_tables.h"
 /**
  * hash_djb2 - create the number of identification
  *
