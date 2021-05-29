@@ -30,15 +30,15 @@ typedef struct hash_table_s
 	hash_node_t **array;
 } hash_table_t;
 
-/* ┌────────────────────────────┐ */
-/* │ Include standar libraries 	│ */
-/* └────────────────────────────┘ */
+/*┌-----------------------------┐ */
+/*│ Include standar libraries	│ */
+/*└-----------------------------┘ */
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 
 /* ┌────────────────┐ */
-/* │   Prototypes 	│ */
+/* │   Prototypes	│ */
 /* └────────────────┘ */
 
 /* 0. Prototype: function that creates a hash table.  */
