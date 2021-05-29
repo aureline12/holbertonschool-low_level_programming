@@ -19,7 +19,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	/* Get the index segun la key the key */
 	index = key_index((const unsigned char *)key, ht->size);
 	item = ht->array[index];
-
 	while (item != NULL)
 	{
 		if (strcmp(item->key, key) == 0)
@@ -35,7 +34,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	item = malloc(sizeof(hash_node_t));
 	if (item == NULL)
 		return (0);
-
 	item->key = strdup(key);
 	if (item->key == NULL)
 	{
@@ -49,5 +47,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(item);
 		return (0);
 	}
+	item->next = ht->array[index];
+	ht->array[index] = item;
 	return (1);
 }
