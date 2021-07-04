@@ -4,6 +4,8 @@ _ ***Make*** is a build automation tool that automatically builds executable pro
 
 ### :memo: - Files
 
-| Files                    | Description |
-| ------------------------ | ----------- |
-| [README.md](./README.md) | Info        |
+| Files                      | Description                                       |
+| -------------------------- | ------------------------------------------------- |
+| [README.md](./README.md)   | Info                                              |
+| [0-Makefile](./0-Makefile) | Commands that compiles an `.c` program with `gcc` |
+| [1-Makefile](./1-Makefile) | Commands that compiles an `.c` program with `gcc` |
